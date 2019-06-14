@@ -6,7 +6,7 @@ If you are interested in the used methods, please have a look at los_analysis.py
 The rest of this readme is about the purpose of the plugin and instructions/recommondations of its use. 
 
 
-![alt text](https://raw.githubusercontent.com/jo11he/LosAnalysis_QGIS3/master/Readme_image.png
+![alt text](https://raw.githubusercontent.com/jo11he/LosAnalysis_QGIS3/master/Readme_image.png)
 
 
 Flight planning over mountainous terrain is not straightforward. The choice of ground
