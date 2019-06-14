@@ -3,7 +3,7 @@ Python3 based QGIS3 plugin for Line of Sight Analysis to support UAV mission pla
 
 For installation of the plugin simply download this repository as .zip file and then install plugin via .zip in the QGIS3 plugin menu. 
 If you are interested in the used methods, please have a look at los_analysis.py, as this is where all the computations happen.
-The rest of this readme is about the purpose of the plugin and instructions/recommondations of its use. 
+The rest of this readme is about the purpose of the plugin and instructions/recommendations of its use. 
 
 
 ![alt text](https://raw.githubusercontent.com/jo11he/LosAnalysis_QGIS3/master/Readme_image.png)
