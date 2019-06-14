@@ -76,7 +76,8 @@ your directory:
 - /filename-0.txt: Contains the chose parameters
 - /filename-1.tif: Minimum flight altitude w.r.t. GCS for LoS
 - /filename-2.tif: Terrain elevations above GCS
-As you can see the actual analysis results are contained in the -1.tif file. The -2.tif file
+
+This shows that the actual analysis results are contained in the -1.tif file. The -2.tif file
 provides information that directly lead to the result. The plugins outputs the -2.tif
 files to give the user the possibility to visualize the causes of the final result and to
 convince of its correctness.
