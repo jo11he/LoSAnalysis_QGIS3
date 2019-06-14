@@ -87,6 +87,7 @@ under which they were produced.
 
 
 Part C: Visualize Results
+
 The results of the analysis are directly uploaded to your QGIS project instance. You will find
 them in the legend on the left and they should be visible in the canvas.
 The layers are added in a predefined style, that enables direct visual comparison of results.
