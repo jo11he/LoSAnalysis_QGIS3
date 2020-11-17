@@ -8,9 +8,9 @@ The rest of this readme is about the purpose of the plugin and instructions/reco
 
 ![alt text](https://raw.githubusercontent.com/jo11he/LosAnalysis_QGIS3/master/Readme_image.png)
 
-(Legend.
-1. Ray-like raster displays the required flight altitude w.r.t. take-off in order to maintain (Radar) Line-of-Sight.
-2. Overlayed irregular features show terrain that is at a higher altitude than take-off and therefore likely drive the required flight altitude.)
+(Legend)
+(1. Ray-like raster displays the required flight altitude (darker -> higher) w.r.t. take-off in order to maintain (Radar) Line-of-Sight.)
+(2. Overlayed irregular features show terrain that is at higher altitude than take-off and therefore drives the required flight altitude.)
 
 Flight planning over mountainous terrain is not straightforward. The choice of ground
 station/ take-off location has great impact on the success of the mission. It is not sufficient
@@ -19,7 +19,8 @@ to negotiated with authorities, it is helpful to be able to support your positio
 sort of analysis. This is where the QGIS plugins Line of Sight Analysis and GSD Analysis can
 be valuable tools. They enable to analyse the terrain of operation from the office which
 saves time in the field and can be used to convince authorities of the benefits of a desired
-take-off location. As a bonus it looks super awesome… Have fun!
+take-off location. This plugin (LosAnalysis) enables advanced Line-of-Sight computations accounting for atmospheric diffraction and Fresnel Zone clearance. 
+As a bonus the results looks super awesome… Have fun!
 
 Prerequisites:
 - Have a working version of Python 3.6 installed on your system (Python 3.7 was not
