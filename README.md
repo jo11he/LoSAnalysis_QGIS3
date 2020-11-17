@@ -15,6 +15,7 @@ Legend:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+## Background & Motivation
 Flight planning over mountainous terrain is not straightforward. The choice of ground
 station/ take-off location has great impact on the success of the mission. It is not sufficient
 to simply make a decision from the gut and especially when the ground station location has
@@ -22,10 +23,12 @@ to negotiated with authorities, it is helpful to be able to support your positio
 sort of analysis. This is where the QGIS plugins Line of Sight Analysis and GSD Analysis can
 be valuable tools. They enable to analyse the terrain of operation from the office which
 saves time in the field and can be used to convince authorities of the benefits of a desired
-take-off location. This plugin (LosAnalysis) enables advanced Line-of-Sight computations accounting for atmospheric diffraction and Fresnel Zone clearance. 
-As a bonus the results looks super awesome… Have fun!
+take-off location. 
 
-Prerequisites:
+This plugin (LosAnalysis) enables advanced Line-of-Sight computations accounting for atmospheric diffraction and Fresnel Zone clearance. 
+As a bonus the results look super awesome… Have fun!
+
+## Prerequisites
 - Have a working version of Python 3.6 installed on your system (Python 3.7 was not
 compatible with QGIS at the time this was written)
 - Have a working version of Quantum GIS3 (QGIS3) installed on your system
@@ -39,7 +42,7 @@ Install from zip. Upload the .zip file and Install Plugin.
 3. Reopen QGIS. Go to Plugins (Title Bar) and check if the installation was successful.
 You should see the Line of Sight Analysis Plugin in that menu.
 
-Part A: Acquire a Digital Elevation Model (DEM)
+## Part A: Acquire a Digital Elevation Model (DEM)
 1. Go to https://vertex.daac.asf.alaska.edu.
 2. Click on Earthdata Login on the right of the top menu bar, login in or go through the
 sign up procedure. After you have signed up and you are logged in you can continue.
@@ -54,7 +57,7 @@ The High-Res Terrain Corrected.
 something like AP-…, containing (amongst others) 3 tif files: HV, HH and DEM.
 The DEM file contains the terrain corrected elevation model.
 
-Part B: Run Analysis
+## Part B: Run Analysis
 1. Open QGIS.
 2. Set Project CRS (Coordinate Reference System). Go to Project (Title Bar) --&gt; Project
 Properties --&gt; CRS, enable ‘on the fly’ CRS transformation. Then choose your CRS. I
@@ -95,7 +98,7 @@ contained in the corresponding .tif files can always be linked to the exact cond
 under which they were produced.
 
 
-Part C: Visualize Results
+## Part C: Visualize Results
 
 The results of the analysis are directly uploaded to your QGIS project instance. You will find
 them in the legend on the left and they should be visible in the canvas.
