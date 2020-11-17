@@ -8,6 +8,9 @@ The rest of this readme is about the purpose of the plugin and instructions/reco
 
 ![alt text](https://raw.githubusercontent.com/jo11he/LosAnalysis_QGIS3/master/Readme_image.png)
 
+(Legend.
+1. Ray-like raster displays the required flight altitude w.r.t. take-off in order to maintain (Radar) Line-of-Sight.
+2. Overlayed irregular features show terrain that is at a higher altitude than take-off and therefore likely drive the required flight altitude.)
 
 Flight planning over mountainous terrain is not straightforward. The choice of ground
 station/ take-off location has great impact on the success of the mission. It is not sufficient
